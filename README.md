@@ -17,7 +17,7 @@ Then, this variable could be use in the log pattern to add the information in th
 
 See the examples for a better understand.
 
-###### Use in a GET endpoint and setting just 1 parameter to include in the MDC context
+### Use in a GET endpoint and setting just 1 parameter to include in the MDC context
 ```java
     @MDCEnable
     @GetMapping("/hello-world-1tag")
@@ -41,7 +41,7 @@ When is call to this endpoint with param name with value "1234", then, in the lo
 
 ----
 
-###### Use in a GET endpoint and setting just 2 parameter to include in the MDC context
+### Use in a GET endpoint and setting just 2 parameter to include in the MDC context
 ```java
     @MDCEnable
     @GetMapping("/hello-world-2tag")
@@ -64,7 +64,7 @@ then, in the logs you can find the mdc printed `{testKey=1234, AnotherKey=sr}`:
 
 ----
 
-###### Use in a POST endpoint and using JsonPath to extract the value to include in the MDC context
+### Use in a POST endpoint and using JsonPath to extract the value to include in the MDC context
 ```java
     @MDCEnable
     @PostMapping("/helloworld")
