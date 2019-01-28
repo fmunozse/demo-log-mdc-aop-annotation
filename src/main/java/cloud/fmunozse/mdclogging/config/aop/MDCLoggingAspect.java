@@ -58,7 +58,7 @@ public class MDCLoggingAspect {
         Object proceed = joinPoint.proceed();
 
         //Restart the context
-        MDC.clear();
+        MDC.remove(KEY_MDC_LOGGING);
 
         return proceed;
 
