@@ -1,8 +1,8 @@
-# demo-log-mdc-aop-annotation
+# demo-log-mdc-aop-annotation 
 
 ## Explanation 
 Application to create a Annotation at level of controller to set MDC Mapped Diagnostic Context  to can 
-defined the MDC in a declarative way. 
+defined the MDC in a declarative way.. 
 
 ## Use
 Created 2 annotations
